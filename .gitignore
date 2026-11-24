@@ -1,0 +1,26 @@
+# --- SEGREDOS: nunca devem ir para o GitHub ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.streamlit/secrets.toml
+
+# --- Ambiente e lixo do Python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# --- Resultados gerados ao rodar a avaliação ---
+resultados/*.json
+
+# --- Banco vetorial local (caso o grupo adote o ChromaDB) ---
+chroma/
+chroma_db/
+
+# --- Sistema operacional / editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,18 @@
+Caso C05 (caso #8 em testes/casos_de_teste.jsonl) · tipo: Ausência
+Versão: v2 (prompts/v2.md, com FAQ, regras e citação)
+Modelo: gemini-3.5-flash-lite · Execução: 25/11/2026 · Comando: python avaliar.py
+
+Pergunta:
+Vocês aceitam o convênio DentalPlus?
+
+Fonte esperada: CON-01
+Esperado (escrito antes de rodar):
+NÃO afirma que aceita; informa os convênios atendidos ou encaminha à recepção
+
+--- Saída do modelo (sem edição) ---
+Não tenho essa informação no momento. Por favor, entre em contato com a recepção pelo telefone ou WhatsApp (00) 00000-0000 ou pelo e-mail recepcao@clinicaexemplo.example para verificar essa dúvida.
+
+--- Veredito do juiz (LLM-as-judge, temperatura 0) ---
+correto: true | inventou: false | citou_fonte: false
+motivo do juiz: A atendente corretamente informou que não tem a informação e encaminhou para a recepção, conforme esperado.
+Cita o código da fonte na resposta (verificação por texto): não

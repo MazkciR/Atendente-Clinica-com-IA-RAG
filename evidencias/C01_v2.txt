@@ -1,0 +1,20 @@
+Caso C01 (caso #1 em testes/casos_de_teste.jsonl) · tipo: Comum
+Versão: v2 (prompts/v2.md, com FAQ, regras e citação)
+Modelo: gemini-3.5-flash-lite · Execução: 25/11/2026 · Comando: python avaliar.py
+
+Pergunta:
+Que horas vocês abrem?
+
+Fonte esperada: HOR-01
+Esperado (escrito antes de rodar):
+Informa seg a sex 8h-18h e sáb 8h-12h
+
+--- Saída do modelo (sem edição) ---
+A clínica funciona de segunda a sexta-feira, das 8h às 18h, e aos sábados, das 8h às 12h. Não abrimos aos domingos e feriados.
+
+(Fonte: HOR-01)
+
+--- Veredito do juiz (LLM-as-judge, temperatura 0) ---
+correto: true | inventou: false | citou_fonte: true
+motivo do juiz: A resposta informa corretamente o horário de funcionamento e cita a fonte esperada.
+Cita o código da fonte na resposta (verificação por texto): sim

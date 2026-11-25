@@ -1,0 +1,18 @@
+Caso C02 (caso #5 em testes/casos_de_teste.jsonl) · tipo: Comum
+Versão: v2 (prompts/v2.md, com FAQ, regras e citação)
+Modelo: gemini-3.5-flash-lite · Execução: 25/11/2026 · Comando: python avaliar.py
+
+Pergunta:
+Como faço para cancelar minha consulta?
+
+Fonte esperada: AGE-02
+Esperado (escrito antes de rodar):
+Orienta avisar a recepção com 24h de antecedência
+
+--- Saída do modelo (sem edição) ---
+Cancelamentos e remarcações devem ser avisados à recepção com pelo menos 24 horas de antecedência. (Fonte: AGE-02)
+
+--- Veredito do juiz (LLM-as-judge, temperatura 0) ---
+correto: true | inventou: false | citou_fonte: true
+motivo do juiz: A resposta orienta corretamente a avisar a recepção com 24h de antecedência e cita a fonte AGE-02 de forma exata.
+Cita o código da fonte na resposta (verificação por texto): sim

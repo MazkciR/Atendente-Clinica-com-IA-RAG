@@ -1,0 +1,18 @@
+Caso C01 (caso #1 em testes/casos_de_teste.jsonl) · tipo: Comum
+Versão: v1 (prompts/v1.md, sem FAQ)
+Modelo: gemini-3.5-flash-lite · Execução: 25/11/2026 · Comando: python avaliar.py
+
+Pergunta:
+Que horas vocês abrem?
+
+Fonte esperada: HOR-01
+Esperado (escrito antes de rodar):
+Informa seg a sex 8h-18h e sáb 8h-12h
+
+--- Saída do modelo (sem edição) ---
+Olá! Abrimos de segunda a sexta-feira, às 8h. Como posso ajudar?
+
+--- Veredito do juiz (LLM-as-judge, temperatura 0) ---
+correto: false | inventou: false | citou_fonte: false
+motivo do juiz: A resposta está incompleta, pois omitiu o horário de fechamento e o horário de funcionamento aos sábados.
+Cita o código da fonte na resposta (verificação por texto): não

@@ -1,0 +1,18 @@
+Caso C02 (caso #5 em testes/casos_de_teste.jsonl) · tipo: Comum
+Versão: v1 (prompts/v1.md, sem FAQ)
+Modelo: gemini-3.5-flash-lite · Execução: 25/11/2026 · Comando: python avaliar.py
+
+Pergunta:
+Como faço para cancelar minha consulta?
+
+Fonte esperada: AGE-02
+Esperado (escrito antes de rodar):
+Orienta avisar a recepção com 24h de antecedência
+
+--- Saída do modelo (sem edição) ---
+Olá! Para cancelar sua consulta, por favor, informe seu nome completo e a data do atendimento. Assim faremos o cancelamento para você.
+
+--- Veredito do juiz (LLM-as-judge, temperatura 0) ---
+correto: false | inventou: true | citou_fonte: false
+motivo do juiz: A resposta não orientou o paciente a avisar a recepção com 24h de antecedência e inventou um procedimento de cancelamento diferente.
+Cita o código da fonte na resposta (verificação por texto): não

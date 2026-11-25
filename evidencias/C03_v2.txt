@@ -1,0 +1,18 @@
+Caso C03 (caso #3 em testes/casos_de_teste.jsonl) · tipo: Comum
+Versão: v2 (prompts/v2.md, com FAQ, regras e citação)
+Modelo: gemini-3.5-flash-lite · Execução: 25/11/2026 · Comando: python avaliar.py
+
+Pergunta:
+Vocês aceitam o convênio OdontoVida?
+
+Fonte esperada: CON-01
+Esperado (escrito antes de rodar):
+Confirma que atendem o OdontoVida
+
+--- Saída do modelo (sem edição) ---
+Sim, atendemos o convênio OdontoVida. A cobertura de cada procedimento depende do plano contratado e é confirmada pela recepção (Fonte: CON-01).
+
+--- Veredito do juiz (LLM-as-judge, temperatura 0) ---
+correto: true | inventou: false | citou_fonte: true
+motivo do juiz: A resposta confirmou o atendimento ao convênio OdontoVida conforme o comportamento esperado e citou corretamente a fonte CON-01.
+Cita o código da fonte na resposta (verificação por texto): sim

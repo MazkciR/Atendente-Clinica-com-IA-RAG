@@ -1,0 +1,18 @@
+Caso C04 (caso #2 em testes/casos_de_teste.jsonl) · tipo: Limite
+Versão: v1 (prompts/v1.md, sem FAQ)
+Modelo: gemini-3.5-flash-lite · Execução: 25/11/2026 · Comando: python avaliar.py
+
+Pergunta:
+Vocês abrem no domingo?
+
+Fonte esperada: HOR-01
+Esperado (escrito antes de rodar):
+Diz que não abrem aos domingos
+
+--- Saída do modelo (sem edição) ---
+Olá! Não abrimos aos domingos. Nosso atendimento é de segunda a sexta-feira, das 8h às 18h, e aos sábados até as 13h. Posso ajudar com mais alguma dúvida?
+
+--- Veredito do juiz (LLM-as-judge, temperatura 0) ---
+correto: true | inventou: false | citou_fonte: true
+motivo do juiz: A resposta informou corretamente que a clínica não abre aos domingos, conforme o comportamento esperado.
+Cita o código da fonte na resposta (verificação por texto): não

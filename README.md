@@ -4,6 +4,8 @@ Um chat que responde dúvidas de pacientes **somente com o que está escrito na 
 
 Projeto final da disciplina *Advanced Generative AI* (MBA em AI Engineering & Multi-Agents). Todos os dados são fictícios (Clínica Exemplo); nenhum dado pessoal real é usado.
 
+**Grupo:** Enrico, Diego Costa, Guilherme Carvalho, Marcelo Soares e Ricardo Del Moro
+
 ## Escolha o seu caminho
 
 | Você é... | Comece por aqui |
@@ -23,6 +25,7 @@ O projeto mede essa diferença com 21 casos de teste: a v1 acerta 12 e a v2 acer
 ## O que tem em cada pasta
 
 ```
+entrega/          Caderno_do_Projeto.docx e Planilha_de_Testes.xlsx (para baixar)
 docs/professor/   Parte 1: guia do avaliador (rubrica, resultados, como verificar)
 docs/aprender/    Parte 2: conceitos, passo a passo, segurança e o código explicado, em linguagem simples
 evidencias/       saídas reais dos testes (C01 a C05 e resumo dos 21 casos)

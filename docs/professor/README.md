@@ -1,6 +1,8 @@
 # Parte 1: Entrega para avaliação
 
-Disciplina *Advanced Generative AI* · Opção A (com código) · Aluno: Enrico (GitHub: MazkciR)
+Disciplina *Advanced Generative AI* · Opção A (com código)
+
+**Grupo:** Enrico, Diego Costa, Guilherme Carvalho, Marcelo Soares e Ricardo Del Moro
 
 [← Voltar à página inicial](../../README.md)
 
@@ -8,8 +10,8 @@ Disciplina *Advanced Generative AI* · Opção A (com código) · Aluno: Enrico 
 
 | Entregável | Onde está |
 |---|---|
-| **Caderno do projeto** (problema, prompts v1 e v2, técnica nova, resultados, risco, limites) | [Caderno online](https://claude.ai/artifact/RCiSuXGqH2H11veujqDWEz) |
-| **Planilha de testes** (5 casos, esperado escrito antes, resultado em v1 e v2, mais os 21 casos em 4 versões) | [Planilha online](https://claude.ai/artifact/ENvm1jF2NMA6mJYjd1ndjs) |
+| **Caderno do projeto** (problema, prompts v1 e v2, técnica nova, resultados, risco, limites) | [`Caderno_do_Projeto.docx`](../../entrega/Caderno_do_Projeto.docx) (Word, para baixar) |
+| **Planilha de testes** (5 casos, esperado escrito antes, resultado em v1 e v2, mais os 21 casos em 4 versões) | [`Planilha_de_Testes.xlsx`](../../entrega/Planilha_de_Testes.xlsx) (Excel, para baixar) |
 | **Evidências** (saída real de cada caso, sem edição) | [`evidencias/`](../../evidencias/) |
 | **Scripts e instruções** | Este repositório. Instruções em [Passo a passo](../aprender/03-passo-a-passo.md) |
 
@@ -82,4 +84,4 @@ A busca do RAG acertou 10 de 10 consultas com os embeddings do Gemini e 60% com 
 
 ## Uso de IA
 
-O assistente Claude (Anthropic) foi usado como apoio na estrutura do código, na escrita e revisão dos prompts, na análise dos resultados e na documentação, conforme permitido pelo professor. O modelo do atendente é o Gemini. As decisões, os testes e a revisão final são do autor.
+O assistente Claude (Anthropic) foi usado como apoio na estrutura do código, na escrita e revisão dos prompts, na análise dos resultados e na documentação, conforme permitido pelo professor. O modelo do atendente é o Gemini. As decisões, os testes e a revisão final são do grupo.

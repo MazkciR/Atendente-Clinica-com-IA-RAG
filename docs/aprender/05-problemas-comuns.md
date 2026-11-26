@@ -1,6 +1,6 @@
 # 5. Problemas comuns e como resolver
 
-[← Trilha](README.md) · [← Segurança](04-seguranca.md) · [Passo a passo](03-passo-a-passo.md)
+[← Trilha](README.md) · [← Segurança](04-seguranca.md) · [Passo a passo](03-passo-a-passo.md) · [Próximo: O código por dentro →](06-o-codigo-por-dentro.md)
 
 ## Ao instalar e rodar
 

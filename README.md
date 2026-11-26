@@ -24,7 +24,7 @@ O projeto mede essa diferença com 21 casos de teste: a v1 acerta 12 e a v2 acer
 
 ```
 docs/professor/   Parte 1: guia do avaliador (rubrica, resultados, como verificar)
-docs/aprender/    Parte 2: conceitos, passo a passo e segurança, em linguagem simples
+docs/aprender/    Parte 2: conceitos, passo a passo, segurança e o código explicado, em linguagem simples
 evidencias/       saídas reais dos testes (C01 a C05 e resumo dos 21 casos)
 testes/           casos de teste e resultados completos (JSON)
 prompts/          as 4 versões do prompt (v1 a v4)

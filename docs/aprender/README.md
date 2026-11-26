@@ -13,9 +13,11 @@ Este guia é para quem **nunca montou um chatbot** (júnior em tecnologia) e tam
 | 3 | [Passo a passo](03-passo-a-passo.md) | Rodar o projeto no seu computador, comando por comando |
 | 4 | [Segurança na prática](04-seguranca.md) | Entender os ataques testados e como proteger chaves e dados |
 | 5 | [Problemas comuns](05-problemas-comuns.md) | Resolver os erros que mais aparecem |
+| 6 | [O código por dentro](06-o-codigo-por-dentro.md) | Entender o que cada arquivo faz e como eles se conectam |
 
 **Só quer entender?** Leia o 1 e consulte o 2.
 **Quer rodar?** Faça o 3; se algo der errado, vá ao 5.
+**Quer entender o código ou adaptá-lo?** Leia o 6.
 
 ## O que você vai precisar para rodar
 
